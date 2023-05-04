@@ -20,5 +20,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: hem
         template: ./Ka.bicep
-        parameters: 'vm2adminPasswordOrKey=password123456 adminPassword=password123456'
+        parameters: 'vm2adminPasswordOrKey=password123456 adminPassword=password123456 Adm2=kavya adminUsername=yuvathi'
         failOnStdErr: false
